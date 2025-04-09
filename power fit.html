@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elite Training Programs - Transform Your Body</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <style>
+      :where([class^="ri-"])::before { content: "\f3c2"; }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#FF3333",
+              secondary: "#333333",
+              dark: "#1A1A1A",
+              gray: "#666666",
+            },
+            borderRadius: {
+              none: "0px",
+              sm: "4px",
+              DEFAULT: "8px",
+              md: "12px",
+              lg: "16px",
+              xl: "20px",
+              "2xl": "24px",
+              "3xl": "32px",
+              full: "9999px",
+              button: "8px",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+      background-color: #1A1A1A;
+      color: white;
+      }
+      .hero-section {
+      background-image: linear-gradient(to right, rgba(26, 26, 26, 0.9), rgba(26, 26, 26, 0.7)), url('https://public.readdy.ai/ai/img_res/a52bedeb0ab25b45de77bf061df7a48f.jpg');
+      background-size: cover;
+      background-position: center;
+      }
+      .program-card {
+      transition: transform 0.3s ease;
+      }
+      .program-card:hover {
+      transform: translateY(-8px);
+      }
+    </style>
+  </head>
+  <body class="min-h-screen">
+    <nav class="fixed top-0 w-full bg-dark/95 backdrop-blur-sm z-50">
+      <div
+        class="container mx-auto px-6 py-4 flex items-center justify-between"
+      >
+        <a href="#" class="text-3xl font-['Pacifico'] text-white">PowerFit</a>
+        <div class="flex items-center gap-8">
+          <a href="#" class="text-white hover:text-primary transition-colors"
+            >Programs</a
+          >
+          <a href="#" class="text-white hover:text-primary transition-colors"
+            >About</a
+          >
+          <a href="#" class="text-white hover:text-primary transition-colors"
+            >Contact</a
+          >
+          <button
+            class="bg-primary text-white px-6 py-2 !rounded-button hover:bg-primary/90 transition-colors whitespace-nowrap"
+          >
+            Download Programs
+          </button>
+        </div>
+      </div>
+    </nav>
+    <section class="hero-section min-h-screen flex items-center pt-16">
+      <div class="container mx-auto px-6">
+        <div class="max-w-2xl">
+          <h1 class="text-6xl font-['Bebas_Neue'] leading-tight mb-6">
+            TRANSFORM YOUR BODY, ELEVATE YOUR STRENGTH
+          </h1>
+          <p class="text-xl text-gray-300 mb-8">
+            Discover professional training programs designed for both beginners
+            and advanced athletes. Take your fitness journey to the next level.
+          </p>
+          <button
+            class="bg-primary text-white px-8 py-4 text-lg !rounded-button hover:bg-primary/90 transition-colors whitespace-nowrap"
+          >
+            CHOOSE YOUR PROGRAM
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="py-24 bg-dark">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-['Bebas_Neue'] text-center mb-16">
+          FEATURED PROGRAMS
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div class="program-card bg-secondary rounded-lg overflow-hidden">
+            <div
+              class="h-48 bg-cover bg-center"
+              style="background-image: url('E:/sublime/power fit/prog1.jpg')"
+            ></div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">Bodybuilder Split</h3>
+              <p class="text-gray-400 mb-4">
+                Classic 5-day split targeting individual muscle groups for
+                maximum hypertrophy.
+              </p>
+              <a href="bodybuilder-split.html" class="block">
+                <button
+                  class="bg-primary text-white px-6 py-2 w-full !rounded-button hover:bg-primary/90 transition-colors whitespace-nowrap"
+                >
+                  Learn More
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="program-card bg-secondary rounded-lg overflow-hidden">
+            <div
+              class="h-48 bg-cover bg-center"
+              style="background-image: url('E:/sublime/power fit/prog2.jpeg')"
+            ></div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">Push Pull Legs</h3>
+              <p class="text-gray-400 mb-4">
+                Efficient 6-day program focusing on movement patterns for
+                balanced development.
+              </p>
+              <a href="push-pull-legs.html" class="block">
+                <button
+                  class="bg-primary text-white px-6 py-2 w-full !rounded-button hover:bg-primary/90 transition-colors whitespace-nowrap"
+                >
+                  Learn More
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="program-card bg-secondary rounded-lg overflow-hidden">
+            <div
+              class="h-48 bg-cover bg-center"
+              style="background-image: url('E:/sublime/power fit/prog3.jpg')"
+            ></div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">Upper/Lower Split</h3>
+              <p class="text-gray-400 mb-4">
+                4-day program optimizing recovery while maintaining training
+                frequency.
+              </p>
+              <a href="upper-lower-split.html" class="block">
+                <button
+                  class="bg-primary text-white px-6 py-2 w-full !rounded-button hover:bg-primary/90 transition-colors whitespace-nowrap"
+                >
+                  Learn More
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="program-card bg-secondary rounded-lg overflow-hidden">
+            <div
+              class="h-48 bg-cover bg-center"
+              style="background-image: url('E:/sublime/power fit/prog4.jpg')"
+            ></div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">Full Body Workout</h3>
+              <p class="text-gray-400 mb-4">
+                3-day comprehensive program perfect for beginners and
+                time-efficient training.
+              </p>
+              <a href="full-body-workout.html" class="block">
+                <button
+                  class="bg-primary text-white px-6 py-2 w-full !rounded-button hover:bg-primary/90 transition-colors whitespace-nowrap"
+                >
+                  Learn More
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-24 bg-secondary">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-['Bebas_Neue'] text-center mb-16">
+          WHY CHOOSE US
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+          <div class="text-center">
+            <div
+              class="w-16 h-16 mx-auto mb-6 text-primary flex items-center justify-center"
+            >
+              <i class="ri-award-line ri-3x"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-4">Expert-Designed Programs</h3>
+            <p class="text-gray-400">
+              Created by professional bodybuilders and certified trainers with
+              years of experience.
+            </p>
+          </div>
+          <div class="text-center">
+            <div
+              class="w-16 h-16 mx-auto mb-6 text-primary flex items-center justify-center"
+            >
+              <i class="ri-customer-service-line ri-3x"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-4">24/7 Support</h3>
+            <p class="text-gray-400">
+              Get answers to your questions and form checks from our dedicated
+              support team.
+            </p>
+          </div>
+          <div class="text-center">
+            <div
+              class="w-16 h-16 mx-auto mb-6 text-primary flex items-center justify-center"
+            >
+              <i class="ri-line-chart-line ri-3x"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-4">Proven Results</h3>
+            <p class="text-gray-400">
+              Thousands of successful transformations and satisfied clients
+              worldwide.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

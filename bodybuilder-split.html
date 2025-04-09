@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Professional Bodybuilder Split Program</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <style>
+      :where([class^="ri-"])::before { content: "\f3c2"; }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#FF3333",
+              secondary: "#333333",
+              dark: "#1A1A1A",
+              gray: "#666666",
+            },
+            borderRadius: {
+              none: "0px",
+              sm: "4px",
+              DEFAULT: "8px",
+              md: "12px",
+              lg: "16px",
+              xl: "20px",
+              "2xl": "24px",
+              "3xl": "32px",
+              full: "9999px",
+              button: "8px",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+      background-color: #1A1A1A;
+      color: white;
+      }
+      .hero-section {
+      background-image: linear-gradient(to right, rgba(26, 26, 26, 0.9), rgba(26, 26, 26, 0.7)), url('https://public.readdy.ai/ai/img_res/95e0777fcc03fe8bac862857d94048f6.jpg');
+      background-size: cover;
+      background-position: center;
+      }
+      .exercise-card {
+      transition: transform 0.3s ease;
+      }
+      .exercise-card:hover {
+      transform: translateY(-4px);
+      }
+    </style>
+  </head>
+  <body class="min-h-screen">
+    <nav class="fixed top-0 w-full bg-dark/95 backdrop-blur-sm z-50">
+      <div
+        class="container mx-auto px-6 py-4 flex items-center justify-between"
+      >
+        <a href="#" class="text-3xl font-['Pacifico'] text-white">PowerFit</a>
+        <div class="flex items-center gap-8">
+          <a
+            href="power fit.html"
+            data-readdy="true"
+            class="text-white hover:text-primary transition-colors"
+            >Back to Programs</a
+          >
+          <button
+            class="bg-primary text-white px-6 py-2 !rounded-button hover:bg-primary/90 transition-colors whitespace-nowrap"
+          >
+            Start Program
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero-section min-h-[60vh] flex items-center pt-16">
+      <div class="container mx-auto px-6">
+        <div class="max-w-2xl">
+          <div
+            class="inline-block bg-primary/20 text-primary px-4 py-2 rounded-full mb-4"
+          >
+            Advanced Level
+          </div>
+          <h1 class="text-6xl font-['Bebas_Neue'] leading-tight mb-6">
+            PROFESSIONAL BODYBUILDER SPLIT
+          </h1>
+          <p class="text-xl text-gray-300 mb-8">
+            A comprehensive 12-week program designed for serious athletes
+            looking to maximize muscle growth and strength gains.
+          </p>
+          <div class="flex gap-4 items-center">
+            <div class="flex items-center gap-2">
+              <i class="ri-time-line text-primary"></i>
+              <span>12 Weeks</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="ri-calendar-line text-primary"></i>
+              <span>6 Days/Week</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="ri-award-line text-primary"></i>
+              <span>Free Program</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 bg-dark">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-['Bebas_Neue'] mb-12">
+          WEEKLY SPLIT SCHEDULE
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-secondary p-6 rounded-lg">
+            <h3 class="text-xl font-bold mb-4">Monday: Chest & Triceps</h3>
+            <ul class="space-y-3 text-gray-300">
+              <li>Flat Bench Press: 4x8-12</li>
+              <li>Incline Dumbbell Press: 4x10-12</li>
+              <li>Cable Flyes: 3x12-15</li>
+              <li>Tricep Pushdowns: 4x12-15</li>
+              <li>Skull Crushers: 3x12-15</li>
+            </ul>
+          </div>
+          <div class="bg-secondary p-6 rounded-lg">
+            <h3 class="text-xl font-bold mb-4">Tuesday: Back & Biceps</h3>
+            <ul class="space-y-3 text-gray-300">
+              <li>Barbell Rows: 4x8-12</li>
+              <li>Lat Pulldowns: 4x10-12</li>
+              <li>Face Pulls: 3x12-15</li>
+              <li>Barbell Curls: 4x12-15</li>
+              <li>Hammer Curls: 3x12-15</li>
+            </ul>
+          </div>
+          <div class="bg-secondary p-6 rounded-lg">
+            <h3 class="text-xl font-bold mb-4">Wednesday: Shoulders & Abs</h3>
+            <ul class="space-y-3 text-gray-300">
+              <li>Military Press: 4x8-12</li>
+              <li>Lateral Raises: 4x12-15</li>
+              <li>Front Raises: 3x12-15</li>
+              <li>Planks: 3x60s</li>
+              <li>Cable Crunches: 3x15-20</li>
+            </ul>
+          </div>
+          <div class="bg-secondary p-6 rounded-lg">
+            <h3 class="text-xl font-bold mb-4">Thursday: Legs</h3>
+            <ul class="space-y-3 text-gray-300">
+              <li>Squats: 4x8-12</li>
+              <li>Romanian Deadlifts: 4x10-12</li>
+              <li>Leg Press: 3x12-15</li>
+              <li>Leg Extensions: 3x12-15</li>
+              <li>Calf Raises: 4x15-20</li>
+            </ul>
+          </div>
+          <div class="bg-secondary p-6 rounded-lg">
+            <h3 class="text-xl font-bold mb-4">Friday: Arms & Calves</h3>
+            <ul class="space-y-3 text-gray-300">
+              <li>Close-Grip Bench: 4x8-12</li>
+              <li>Preacher Curls: 4x10-12</li>
+              <li>Rope Pushdowns: 3x12-15</li>
+              <li>Standing Calf Raises: 4x15-20</li>
+              <li>Seated Calf Raises: 3x15-20</li>
+            </ul>
+          </div>
+          <div class="bg-secondary p-6 rounded-lg">
+            <h3 class="text-xl font-bold mb-4">Saturday: Weak Points</h3>
+            <ul class="space-y-3 text-gray-300">
+              <li>Focus on lagging muscle groups</li>
+              <li>2-3 exercises per muscle</li>
+              <li>Moderate volume</li>
+              <li>Active recovery techniques</li>
+              <li>Mobility work</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 bg-secondary">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-['Bebas_Neue'] mb-12">REQUIRED EQUIPMENT</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div class="bg-dark p-6 rounded-lg">
+            <div
+              class="w-12 h-12 mb-4 text-primary flex items-center justify-center"
+            >
+              <i class="ri-dumbbell-line ri-2x"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-4">Free Weights</h3>
+            <ul class="space-y-2 text-gray-300">
+              <li>Dumbbells (various weights)</li>
+              <li>Barbells</li>
+              <li>Weight plates</li>
+            </ul>
+          </div>
+          <div class="bg-dark p-6 rounded-lg">
+            <div
+              class="w-12 h-12 mb-4 text-primary flex items-center justify-center"
+            >
+              <i class="ri-settings-line ri-2x"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-4">Machines</h3>
+            <ul class="space-y-2 text-gray-300">
+              <li>Cable machine</li>
+              <li>Leg press</li>
+              <li>Smith machine</li>
+            </ul>
+          </div>
+          <div class="bg-dark p-6 rounded-lg">
+            <div
+              class="w-12 h-12 mb-4 text-primary flex items-center justify-center"
+            >
+              <i class="ri-boxing-line ri-2x"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-4">Accessories</h3>
+            <ul class="space-y-2 text-gray-300">
+              <li>Resistance bands</li>
+              <li>Exercise mat</li>
+              <li>Foam roller</li>
+            </ul>
+          </div>
+          <div class="bg-dark p-6 rounded-lg">
+            <div
+              class="w-12 h-12 mb-4 text-primary flex items-center justify-center"
+            >
+              <i class="ri-heart-pulse-line ri-2x"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-4">Recovery Tools</h3>
+            <ul class="space-y-2 text-gray-300">
+              <li>Massage tools</li>
+              <li>Compression gear</li>
+              <li>Ice packs</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 bg-dark">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-['Bebas_Neue'] mb-12">SUCCESS TIPS</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-secondary p-6 rounded-lg">
+            <div
+              class="w-12 h-12 mb-4 text-primary flex items-center justify-center"
+            >
+              <i class="ri-timer-line ri-2x"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-4">Rest & Recovery</h3>
+            <p class="text-gray-300">
+              Aim for 7-9 hours of sleep per night. Take rest days seriously and
+              use active recovery techniques.
+            </p>
+          </div>
+          <div class="bg-secondary p-6 rounded-lg">
+            <div
+              class="w-12 h-12 mb-4 text-primary flex items-center justify-center"
+            >
+              <i class="ri-restaurant-line ri-2x"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-4">Nutrition</h3>
+            <p class="text-gray-300">
+              Maintain a caloric surplus with high protein intake. Stay hydrated
+              and time your meals around workouts.
+            </p>
+          </div>
+          <div class="bg-secondary p-6 rounded-lg">
+            <div
+              class="w-12 h-12 mb-4 text-primary flex items-center justify-center"
+            >
+              <i class="ri-focus-line ri-2x"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-4">Form & Technique</h3>
+            <p class="text-gray-300">
+              Focus on proper form over weight. Record your sets to check
+              technique and track progress.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 bg-secondary text-center">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-['Bebas_Neue'] mb-8">READY TO START?</h2>
+        <p class="text-xl text-gray-300 mb-8">
+          Join thousands of successful transformations with our proven program
+        </p>
+        <button
+          class="bg-primary text-white px-12 py-4 text-xl !rounded-button hover:bg-primary/90 transition-colors whitespace-nowrap"
+        >
+          Start Your Journey Today
+        </button>
+      </div>
+    </section>
+  </body>
+</html>
